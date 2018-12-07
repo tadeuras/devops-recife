@@ -12,7 +12,7 @@ public class WorldController {
 	@RequestMapping("/hello")
 	public HelloWorldResponse hello() {
 		HelloWorldResponse response = new HelloWorldResponse();
-		response.set       Response("Hello World Devops");
+		response.setResponse("Hello World Devops");
 		return response;
 	}
 }
